@@ -58,7 +58,7 @@ body {
     font-family: "Roboto", "sans-serif";
 
     display: grid;
-    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-columns: 1fr 4fr 1fr;
     grid-template-rows: 1fr 2.5fr 1fr;
 }
 
@@ -70,7 +70,34 @@ main {
     grid-template-rows: 1fr minmax(30px, 50px);
 }
 
-svg {
+.content {
+    background-color: #fff;
+    border-radius: 0.75rem;
+}
+
+.extras {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.extras * {
+    opacity: 0.9;
+}
+
+.extras > .lan {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.extras svg {
     height: auto;
     width: 1.5rem;
+}
+
+.extras > .options {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
 }

@@ -46,3 +46,31 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+@font-face {
+    font-family: "Roboto";
+    src: url("./assets/fonts/roboto/Roboto-Regular.ttf");
+}
+
+body {
+    height: 98vh;
+    background: #e2e8f0;
+    font-family: "Roboto", "sans-serif";
+
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 1fr 2.5fr 1fr;
+}
+
+main {
+    grid-column: 2;
+    grid-row: 2;
+
+    display: grid;
+    grid-template-rows: 1fr minmax(30px, 50px);
+}
+
+svg {
+    height: auto;
+    width: 1.5rem;
+}

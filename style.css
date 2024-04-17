@@ -144,6 +144,7 @@ form.right-section > div:first-child{
 form.right-section > div:first-child input{
     padding: 15px;
     font-size: 1rem;
+    border-radius: 0.4rem;
 }
 
 form.right-section > div:first-child a{

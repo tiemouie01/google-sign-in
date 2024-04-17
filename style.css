@@ -104,3 +104,10 @@ main {
     align-items: center;
     gap: 1.5rem;
 }
+
+/* content section */
+
+main .content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

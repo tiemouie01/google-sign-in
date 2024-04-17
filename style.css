@@ -130,7 +130,7 @@ main .content > .left-section > h1{
 }
 
 form.right-section{
-    margin-top: 110px;
+    margin-top: 105px;
     margin-right: 40px;
     display: grid;
 }
@@ -142,5 +142,5 @@ form.right-section > div:first-child{
 }
 
 form.right-section > div:first-child input{
-
+    padding: 15px;
 }

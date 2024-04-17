@@ -133,3 +133,9 @@ form.right-section{
     margin-top: 110px;
     display: grid;
 }
+
+form.right-section > div:first-child{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}

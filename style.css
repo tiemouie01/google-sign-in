@@ -152,3 +152,10 @@ form.right-section a{
     text-decoration: none;
     color: #0a58d0;
 }
+
+form.right-section p + div{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-self: end;
+}

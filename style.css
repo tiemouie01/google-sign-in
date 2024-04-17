@@ -115,5 +115,12 @@ main .content{
 main .content > .left-section{
     display: grid;
     margin-left: 40px;
-    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 30px;
+    grid-template-rows: 0.1fr 0.1fr 1fr;
+}
+
+main .content > .left-section > img{
+    height: auto;
+    width: 50px;
 }

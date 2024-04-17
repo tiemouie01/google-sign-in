@@ -159,3 +159,13 @@ form.right-section p + div{
     align-items: center;
     justify-self: end;
 }
+
+form.right-section p + div button{
+    background-color: #0a58d0;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight: 900;
+}

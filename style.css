@@ -114,5 +114,6 @@ main .content{
 
 main .content > .left-section{
     display: grid;
+    margin-left: 40px;
     grid-template-rows: 1fr 1fr 1fr;
 }

@@ -111,3 +111,8 @@ main .content{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+main .content > .left-section{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
